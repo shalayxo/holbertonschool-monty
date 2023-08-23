@@ -6,8 +6,7 @@
  * @line_number: Line number where the add function is called.
  */
 void add(stack_t **stack, unsigned int line_number)
-{	
-	
+{
 	stack_t *temp1, *temp2;
 
 	(void) stack;

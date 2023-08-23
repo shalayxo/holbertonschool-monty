@@ -13,7 +13,7 @@ void getting_stream_failed(char *fileName)
 }
 /**
  * get_stream - gets the stream for reading from the specified file.
- * @fielName: Name of the file to open and set as the stream.
+ * @fileName: Name of the file to open and set as the stream.
  */
 
 void get_stream(char *fileName)
@@ -35,10 +35,10 @@ void get_stream(char *fileName)
 /**
  * close_stream - closes file and sets it to null
  */
- 
+
 void close_stream(void)
 {
-	if(arguments->stream ==NULL)
+	if (arguments->stream == NULL)
 		return;
 	fclose(arguments->stream);
 	arguments->stream = NULL;

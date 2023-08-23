@@ -5,9 +5,9 @@
  * @argc: The number of command-line arguments.
  */
 
- void valid_argument(int argc)
- {
- 	if (argc == 2)
+void valid_argument(int argc)
+{
+	if (argc == 2)
 		return;
 
 	dprintf(2, "USAGE: monty file\n");
